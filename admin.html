@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUGHEES Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <!-- ADMIN LOGIN -->
+    <section id="login-section" class="login-box">
+        <h1>MUG<span>HEES.</span></h1>
+        <h2>Admin Login</h2>
+
+        <form id="login-form">
+            <input type="email" id="email" placeholder="Admin Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">LOGIN</button>
+            <p id="login-message"></p>
+        </form>
+    </section>
+
+    <!-- ADMIN DASHBOARD -->
+    <main id="dashboard" hidden>
+
+        <header>
+            <h1>MUGHEES <span>ADMIN</span></h1>
+            <button id="logout">Logout</button>
+        </header>
+
+        <h2>Dashboard Overview</h2>
+
+        <div class="stats">
+            <div class="stat-card">
+                <p>Total Orders</p>
+                <h2 id="total-orders">0</h2>
+            </div>
+
+            <div class="stat-card">
+                <p>Pending Orders</p>
+                <h2 id="pending-orders">0</h2>
+            </div>
+
+            <div class="stat-card">
+                <p>Total Revenue</p>
+                <h2 id="total-revenue">Rs. 0</h2>
+            </div>
+        </div>
+
+        <h2>Customer Orders</h2>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Phone</th>
+                        <th>Products</th>
+                        <th>Total</th>
+                        <th>Address</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="orders-list">
+                    <tr>
+                        <td colspan="7">Loading orders...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>
