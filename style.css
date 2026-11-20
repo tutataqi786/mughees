@@ -33,7 +33,7 @@ body {
 
 .logo span,
 footer span {
-    color: #c9a45c;
+    color: #f20707;
 }
 
 nav {
@@ -75,7 +75,7 @@ nav a:hover {
     min-height: 570px;
     padding: 65px 8%;
     background: #171717;
-    color: white;
+    color: rgb(245, 7, 7);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .small-heading {
-    color: #c9a45c;
+    color: #ecc9ce;
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
@@ -175,7 +175,7 @@ body {
 
 .progress-fill {
     height: 100%;
-    background: #61e6fd !important;
+    background: #5f030f !important;
     border-radius: 20px;
     transition: width 1.2s ease;
 }
@@ -244,22 +244,28 @@ body {
 
 .category-list button:hover {
     background: #171717;
-    color: white;
+    color: #f66e6e;
 }
 
 .section-heading p {
-    color: #a47e37;
+    color: #151514;
     letter-spacing: 3px;
     margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    color: #ed5050;
+    margin-bottom: 30px;
 }
 
 #search {
     width: min(100%, 450px);
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #121111;
     margin: 10px 0 35px;
     border-radius: 5px;
-    outline-color: #c9a45c;
+    outline-color: #d40c0c;
+    hover: 1px solid #f93b5e;
 }
 
 .product-grid {
@@ -279,7 +285,7 @@ body {
 
 .product-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 25px #00000020;
+    box-shadow: 0 12px 25px #d40606;
 }
 
 .product-card img {
@@ -298,14 +304,14 @@ body {
 }
 
 .product-info p {
-    color: #a47e37;
+    color: #eb3770;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 .product-info button {
     width: 100%;
-    background: #171717;
+    background: #f76969;
     color: white;
     border: none;
     padding: 12px;
